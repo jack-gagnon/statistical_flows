@@ -56,7 +56,7 @@ def workspace_tree():
 raw_data = pd.read_csv("C:\\Users\\path\\to\\file.csv", encoding = 'cp1252')
 data = pd.read_csv("C:\\Users\\path\\to\\file.csv", encoding = 'cp1252')
 
-con = sqlite3.connect("C:\\Users\\e650609\\Desktop\\useful-py-cmds\\raw_data_workflow\\SHO_KPI_details_archive.sqlite")
+con = sqlite3.connect("C:\\path\\to\\db")
 sql_data = pd.read_sql_query("SELECT * FROM Data;", con)
 
 con.close()
