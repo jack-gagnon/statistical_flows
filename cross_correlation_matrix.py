@@ -6,6 +6,7 @@ import sklearn as skl
 import numpy as np
 import pprint as pp
 import os, sys, shutil, pathlib
+from pathlib import Path
 import time
 import sqlite3
 from datetime import datetime, timedelta
@@ -13,8 +14,6 @@ import matplotlib
 import matplotlib.pyplot as plt
 import seaborn as sns
 import scipy
-import pathlib
-from pathlib import Path
 import math
 
 # ----------------------------------------------------------------------------
